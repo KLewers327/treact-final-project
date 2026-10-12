@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
 .row {
   width: 100%;
   max-width: 1280px;
@@ -25,9 +29,9 @@ body {
   margin: 0 auto;
 }
 
-.container {
+/* .container {
   padding: 96px 0;
-}
+} */
 
 .purple {
   color: #6415ff;
@@ -53,29 +57,41 @@ li {
 
 nav {
   display: flex;
-  padding-top: 32px;
+  padding-top: 26px;
 }
 
 .nav__row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__logo {
   display: flex;
   align-items: center;
-  margin: 8px 0;
+  margin: 6px 0;
   padding-bottom: 4px;
+  transform: translateX(-5.5px);
+}
+
+.nav__link {
+  margin: 0 1.5rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav__login {
+  padding-left: 36px;
 }
 
 .logo__img {
-  width: 40px;
-  padding-right: 1rem;
+  width: 3.3rem;
+  padding-right: 0.8rem;
 }
 
 .logo__text {
-  font-size: 1.5rem important;
   font-weight: 900;
+  letter-spacing: 0.4px;
 }
 
 .nav__link {
