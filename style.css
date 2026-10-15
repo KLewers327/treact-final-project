@@ -1084,11 +1084,11 @@ section #testimonials {
 
 .start__blob--2 {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: 0;
+  right: 0;
   height: 20rem;
   width: 20rem;
-  transform: translate(60rem, -14rem);
+  transform: translate(5rem, -16rem);
   color: #5011cc;
   opacity: 0.5;
 }
