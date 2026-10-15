@@ -842,6 +842,17 @@ header .row {
   border-bottom: 2px solid #667eea;
 }
 
+.plans__blob {
+  z-index: -10;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+  height: 256px;
+  width: 256px;
+  opacity: 0.25;
+}
+
 .plans {
   display: flex;
   position: relative;
