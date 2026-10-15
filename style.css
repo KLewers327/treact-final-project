@@ -884,6 +884,7 @@ section #testimonials {
 #testimonials .section__title{
   margin-bottom: 24px;
   line-height: 1.25;
+  text-align: left;
 }
 
 .testimonial {
