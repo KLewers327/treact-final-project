@@ -494,6 +494,23 @@ header .row {
   position: relative;
   margin: 0 56px;
   display: flex;
+  z-index: 2;
+}
+
+.quality__grid {
+  transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  fill: #6415ff;
+  --tw-text-opacity: 1;
+  color: rgba(100, 21, 255, var(--tw-text-opacity));
+}
+
+.quality__img {
+  z-index: 1;
 }
 
 /* STEPS */
