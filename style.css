@@ -149,6 +149,10 @@ nav {
   align-items: center;
 }
 
+.nav__container {
+  width: 100%;
+}
+
 .nav__logo {
   display: flex;
   align-items: center;
