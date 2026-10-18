@@ -161,6 +161,7 @@ nav {
   display: flex;
   align-items: center;
   padding-bottom: 2px;
+  margin-left: auto;
 }
 
 .nav__link {
@@ -1347,6 +1348,10 @@ footer {
 
   .btn__menu {
     display: block;
+  }
+
+  .btn__menu:not(.btn__menu--close) {
+    margin-left: auto;
   }
 
   header .row {
