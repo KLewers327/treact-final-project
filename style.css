@@ -1352,6 +1352,7 @@ footer {
 
   .btn__menu {
     display: block;
+    font-size: 30px;
   }
 
   .btn__menu:not(.btn__menu--close) {
