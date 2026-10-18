@@ -96,7 +96,7 @@ img {
 
 .row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -173,6 +173,7 @@ nav {
   position: relative;
   border-bottom: 2px solid transparent;
   transition: 300ms;
+  color: #243e63;
 }
 
 .nav__link::after {
@@ -208,6 +209,7 @@ nav {
   font-weight: 900;
   letter-spacing: 0.6px;
   border-left: 20px;
+  color: #243e63;
 }
 
 .nav__link--primary {
@@ -216,7 +218,7 @@ nav {
   line-height: 1.5;
   width: auto;
   margin-top: 2px;
-  padding: 10px 32px;
+  padding: 13px 32px;
   border-radius: 9999px;
   border-width: medium;
   border-style: none;
